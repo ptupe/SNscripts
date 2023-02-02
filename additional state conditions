@@ -1,0 +1,3 @@
+if (!current.state.changesFrom('20')) {
+    answer = true; // if state does not change from 'awaiting acceptance' for which reopen notification is configured
+}
